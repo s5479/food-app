@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Prompt:wght@100;200;300;400&family=Roboto:wght@100;300;400&display=swap');
+body {
+  margin: 0;
+  font-family: 'Libre Baskerville', serif;
+    /* font-family: 'Prompt', sans-serif; */
+    /* font-family: 'Roboto', sans-serif;  */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.heading{
+  position: absolute;
+  z-index: 1000;
+ color: white;
+ width: 100%;
+ margin-top: 200px;
+text-shadow: 10px 10px 10px orange;
+text-align: center;
+}
+
+.footer{
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  /* bottom: 0; */
+  background: orange;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+ 
+}
+

@@ -1,0 +1,55 @@
+.login {
+    background: url('https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    height: 100vh;
+        background-position: center;
+        object-fit: contain;
+        background-size: cover;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+   
+
+}
+.innerform{
+    width: 400px;
+    /* height: 70vh; */
+    margin: 50px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    box-shadow: 1px 1px 15px black;
+    color: white;
+    text-shadow: 3px 3px 5px black; 
+}
+input{
+    display: block;
+    width: 100%;
+    margin: auto;
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+    margin-bottom: 5px;
+    border: none;
+    
+}
+button{
+    background: orange;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+}
+button:hover{
+    font-weight: bold;
+}
+button:active{
+    font-weight: normal;
+    border: 1px solid orange;
+}
+
+.loginform{
+    margin-top: 70px;
+}
